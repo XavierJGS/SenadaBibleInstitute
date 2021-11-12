@@ -12,6 +12,17 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.navName{
+  font-size: 20px;
+  margin-left: 10px;
+}
+.fontBlack{
+  color:black;
+  font-weight: bold;
+}
+.textLeft{
+  text-align: left;
+}
 
 .App-header {
   background-color: #282c34;
@@ -27,6 +38,16 @@
 .App-link {
   color: #61dafb;
 }
+
+.background-gradient-header {
+  background-image: linear-gradient(rgb(165, 209, 235), white);
+  padding: 20px 0;
+}
+.background-gradient {
+  background-image: linear-gradient(rgb(166, 237, 247), white);
+  padding: 20px 0;
+}
+
 
 @keyframes App-logo-spin {
   from {
